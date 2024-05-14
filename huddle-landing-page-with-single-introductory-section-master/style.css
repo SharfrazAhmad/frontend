@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/bg-desktop.svg);
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    background-color:hsla(257, 40%, 49%,0.9);
+    
+}
+.logo{
+    padding: 20px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+h1{
+    font-size: 32px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 60px;
+}
+button{
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-right: 600px;
+    padding: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+}
+button:hover{
+    background-color: hsl(300, 69%, 71%);
+}
+p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+}
+footer{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    color: white;
+    margin-right: 20px;
+}
+.bi{
+    size: 50px;
+    margin-right: 20px;
+}

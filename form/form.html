@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body bgcolor="purple" text="white">
+    <div>
+      <form action="/action_page.java">
+        <h1>STUDENTS REGISTRATION FORM</h1>
+        <div>
+          <label>Enter name:</label>
+          <input type="text" />
+        </div><br>
+        <div>
+          <label>Enter class:</label>
+          <input type="text" />
+        </div><br>
+        <div>
+          <label>Enter roll no:</label>
+          <input type="number" />
+        </div><br>
+        <div>
+          <label>Enter email:</label>
+          <input type="email" required/>
+        </div><br>
+        <div>
+          <label>Enter password:</label>
+          <input type="password" />
+        </div><br>
+        <div>
+            <label for="">Course</label>
+            <select name="" id="">
+                <option value="">Select</option>  
+                <option value="BCA">BCA</option>  
+                <option value="BBA">BBA</option>  
+                <option value="B.Tech">B.Tech</option>  
+                <option value="MBA">MBA</option>  
+                <option value="MCA">MCA</option>  
+                <option value="M.Tech">M.Tech</option>
+            </select>
+        </div><br>
+        <div>
+          <label for="">Sex: </label>
+          <input type="radio" id="male" name="sex"/>
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="sex" />
+          <label for="female">Female</label>
+          <input type="radio" id="other" name="sex" />
+          <label for="other">Other</label>
+        </div><br>
+        <div>
+          <label for="">DOB</label>
+          <input type="date" />
+        </div><br>
+        <div>
+            <label for="">Address</label>
+            <textarea name="" id="" cols="30" rows="10" style="width:229px; height: 35px;" 229px; height: 35px;></textarea>
+        </div>
+        <div>
+          <label for="informations">All informations are correct:</label>
+          <input type="checkbox" name="" id="informations" />
+        </div><br>
+        <div>
+          <button>SUBMIT</button>
+          <input type="reset" value="Reset">
+        </div><br>
+      </form>
+    </div>
+  </body>
+</html>
