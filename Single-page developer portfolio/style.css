@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    background-image: url(./images/wood-1759566_1920.jpg);
+    box-sizing: border-box;
+    padding-left:10%;
+    padding-right:10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.icon span{
+    font-size: 30px;
+    padding-right: 20px;
+}
+.logo{
+    font-size: 40px;
+}
+.hero{
+    display: flex;
+    border-bottom: 2px solid white;
+    padding-bottom: 80px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.right img{
+    height: 550px;
+    width: 400px;
+    padding-left: 100px;
+    border-radius: 100px;
+}
+.intro{
+    padding-top: 50px;
+    font-size: 80px;
+}
+p{
+    line-height: 30px;
+}
+.contact{
+    padding-top:50px;
+    padding-bottom: 10px;
+}
+.contact a{
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 25px;
+    border-bottom: 2px solid green;
+}
+.grid1{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    justify-content: center;
+    height: 500px;
+    gap: 50px 30px;
+}
+.grid1-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 190px;
+    width: 350px;
+    grid-gap: 20px 20px;
+    font-weight: bold;
+}
+.grid1-item p{
+    color: white;
+    font-size: 40px;
+
+}
+.grid1-item span{
+    font-weight: lighter;
+    color: antiquewhite;
+    margin-top: -20px;
+}
+.projects1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 50px 30px;
+}
+.grid2-item{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 100%;
+}
+.grid2-item img{
+    height: 400px;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.grid2-item div{
+    padding-left:15px;
+    margin-top: -30px;
+    font-weight: bold;
+    color: azure;
+
+}
+footer{
+    display: flex;
+    margin-top: 50px;
+}
+.footer-left{
+    padding-top: 50px;
+    width: 50%;
+}
+.footer-right{
+    padding-top: 40px;
+    width: 50%;
+}
+.footer-right div{
+    padding-left: 20px;
+}
+.contactme{
+    display: flex;
+    justify-content: flex-end;
+}
