@@ -9,9 +9,6 @@ body{
     height: 100%;
 
 }
-div{
-    border: 1px solid blueviolet;
-}
 
 .container{
     max-width: 95vw;
