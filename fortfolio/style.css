@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+/* ! HEADER SECTION */
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkcyan;
+    align-items: center;
+}
+h1{
+    margin-left: 1em;
+}
+h1 span{
+    color: aqua;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    color: white;
+}
+li{
+    margin-left: 2em;
+    margin-right: 2em;
+    font-size: 1.2em;
+
+}
