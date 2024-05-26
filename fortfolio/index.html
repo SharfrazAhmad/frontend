@@ -3,28 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1d9119aa46.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <h1><span>John </span>Doe</h1>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-    </header>
-    <main>
+    <div id="header">
         <div class="container">
-            <div class="container-left">
-                
+            <nav>
+                <img src="./images/logo.jpg" alt="" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about ">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>John</span><br>Doe from India</h1>
             </div>
-            <div class="container-right"></div>
         </div>
-    </main>
-    <footer></footer>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum vero id voluptates. Saepe at iste quaerat quo aspernatur officiis vitae a eos fugit? Autem cum minus numquam quod reprehenderit maiores laboriosam tempora quas. Molestias ducimus error et? Velit, consequatur aliquam.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link">Skills</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nam cumque optio voluptate consectetur, mollitia dolorum, voluptatum inventore sapiente quaerat aliquam iure eum ipsa totam.</li>
+                            <li><span>Web Development</span><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt nam molestias et qui rem necessitatibus harum quibusdam nesciunt magnam eum ad in nobis, doloremque officia.</li>
+                            <li><span>App Development</span><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi aspernatur asperiores nostrum mollitia deleniti delectus voluptas velit quibusdam quia itaque. Fuga odio possimus reprehenderit dolorem?</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web interfaces</li>
+                            <li><span>Web Development</span><br>Designing Web interfaces</li>
+                            <li><span>App Development</span><br>Designing Web interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web interfaces</li>
+                            <li><span>Web Development</span><br>Designing Web interfaces</li>
+                            <li><span>App Development</span><br>Designing Web interfaces</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo facere, molestias possimus sequi voluptate ad.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo facere, molestias possimus sequi voluptate ad.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo facere, molestias possimus sequi voluptate ad.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>
+                            Social Media App
+                        </h3>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>
+                            Social Media Website
+                        </h3>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>
+                            Online Shopping
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">
+                        Contact Me
+                    </h1>
+                    <p><i class="fa-solid fa-envelope"></i><a href="mailto:youremail@example.com">Contact@email.com</a></p>
+                    <p><i class="fa-solid fa-phone"></i>0123456789</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-meta"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
 </body>
 </html>
