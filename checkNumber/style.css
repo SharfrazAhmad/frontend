@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#counter{
+    padding: 50px;
+    background-color: white;
+    border-radius: 20px;
+}
+button{
+    padding: 30px;
+    background-color: rgb(238, 239, 239);
+    font-size: 25px;
+    border-radius: 50%;
+}
+button:hover{
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
+    background-color: rgb(221, 185, 255);
+    box-shadow: 5px 5px 25px inset;
+}
+p{
+    font-size: 25px;
+}
+#result{
+    display: flex;
+    justify-content: center;
+}
+#reset:hover{
+    background-color: red;
+}
