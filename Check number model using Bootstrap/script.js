@@ -30,7 +30,7 @@ function reset ()
 }
 function checkNumber(){
     if(c==0){
-        document.getElementById("result").innerText="0";
+        document.getElementById("result").innerText="Even";
     }
     else if(c%2==0){
         document.getElementById("result").innerText="Even";
