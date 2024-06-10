@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Modal Example</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button id="openModalBtn">Open Modal</button>
+
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close"></span>
+        <div id="counter">
+          <p id="result"></p>
+          <p id="count">0</p>
+          <div id="buttons">
+              <button onclick="incr(),checkNumber()">+</button>
+              <button onclick="decr(),checkNumber()">-</button>
+              <button id="reset" onclick="reset()">C</button>
+          </div>
+       </div>
+    </div>
+</div>
+
+<script src="./script.js"></script>
+
+</body>
+</html>
